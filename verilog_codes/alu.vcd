@@ -1,0 +1,90 @@
+$date
+	Fri Feb 28 14:23:42 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module testbench $end
+$var wire 1 ! Result $end
+$var wire 1 " Cout $end
+$var reg 1 # A $end
+$var reg 3 $ ALUOp [2:0] $end
+$var reg 1 % B $end
+$var reg 1 & Cin $end
+$scope module uut $end
+$var wire 1 # A $end
+$var wire 3 ' ALUOp [2:0] $end
+$var wire 1 % B $end
+$var wire 1 & Cin $end
+$var wire 1 ( sum $end
+$var wire 1 ) carry_out $end
+$var reg 1 " Cout $end
+$var reg 1 ! Result $end
+$scope module FA $end
+$var wire 1 # A $end
+$var wire 1 * B $end
+$var wire 1 + Cin $end
+$var wire 1 ) Cout $end
+$var wire 1 ( S $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+x+
+x*
+x)
+x(
+bx '
+0&
+0%
+bx $
+1#
+0"
+0!
+$end
+#10
+0)
+1(
+0*
+0+
+b0 $
+b0 '
+#20
+1!
+b1 $
+b1 '
+#30
+b10 $
+b10 '
+#40
+b11 $
+b11 '
+#50
+1)
+1(
+1*
+1+
+b100 $
+b100 '
+#60
+0!
+b101 $
+b101 '
+#70
+1"
+1!
+b110 $
+b110 '
+#80
+0"
+b111 $
+b111 '
+#90
